@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Snap Call</title>
+    <style>
+        :root {
+            --primary-color: #FF2A4A;
+            --secondary-color: #B91C1C;
+            --danger-color: #FF1744;
+            --text-color: #F8FAFC;
+            --bg-color: #090B10;
+            --card-bg: #111420;
+            --card-surface: #181C2E;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --muted-text: #94A3B8;
+            --accent-gradient: linear-gradient(135deg, #FF2A4A, #DC2626);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            background-image: radial-gradient(circle at 50% 0%, #1a1a2e 0%, #090b10 100%);
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 60px auto;
+            padding: 50px;
+            background-color: var(--card-bg);
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--border-color);
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .app-title {
+            font-size: 3rem;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0 0 10px 0;
+            font-weight: 900;
+            letter-spacing: -1px;
+        }
+
+        .doc-type {
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--muted-text);
+            margin: 0 0 15px 0;
+        }
+
+        .meta-info {
+            font-size: 0.85rem;
+            color: var(--muted-text);
+            background: rgba(255, 255, 255, 0.03);
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            color: var(--text-color);
+            margin-top: 45px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: "";
+            display: inline-block;
+            width: 4px;
+            height: 24px;
+            background: var(--accent-gradient);
+            margin-right: 15px;
+            border-radius: 2px;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            color: var(--primary-color);
+            margin-top: 30px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        p, ul, ol {
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-align: left;
+            color: #cbd5e1;
+        }
+
+        ul, ol {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .permission-badge {
+            display: inline-block;
+            background-color: rgba(255, 42, 74, 0.1);
+            color: var(--primary-color);
+            padding: 4px 12px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            border: 1px solid rgba(255, 42, 74, 0.2);
+        }
+
+        .highlight-box {
+            background-color: var(--card-surface);
+            border: 1px solid var(--border-color);
+            padding: 25px;
+            border-radius: 16px;
+            margin: 30px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .highlight-box::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--accent-gradient);
+        }
+
+        .footer {
+            margin-top: 60px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 30px;
+            font-size: 0.85rem;
+            color: var(--muted-text);
+            text-align: center;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+
+        strong {
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 0;
+                border-radius: 0;
+                padding: 30px 20px;
+            }
+            .app-title {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="app-title">Snap Call</div>
+        <div class="doc-type">Comprehensive Privacy Policy</div>
+        <div class="meta-info">
+            <strong>Effective Date:</strong> October 24, 2023 &nbsp;|&nbsp;
+            <strong>Last Updated:</strong> May 20, 2024
+        </div>
+    </header>
+
+    <section>
+        <p>Welcome to <strong>Snap Call</strong> ("we," "our," or "us"). Your privacy and data integrity are paramount to us. This Comprehensive Privacy Policy clarifies the nature, scope, purpose, and conditions of data processed through the Snap Call mobile software application (the "Application").</p>
+        <p>This Application operates predominantly as an on-device utility designed for rapid telephonic execution, contact management, text-to-speech feedback, speech recognition, and emergency SOS dispatch. By initializing, updating, or engaging with this Application, you formally consent to the terms delineated herein.</p>
+    </section>
+
+    <h2>1. General Principles of Data Handling</h2>
+    <p>Snap Call adheres strictly to the principles of <strong>data minimization</strong> and <strong>privacy by design</strong>:</p>
+    <ul>
+        <li><strong>No External Harvesting:</strong> We do not deploy private backend computational engines to harvest, aggregate, or store your personal communications, profiles, or location coordinates.</li>
+        <li><strong>On-Device Architecture:</strong> The primary scope of user-generated data processing stays local, utilizing your mobile operating system's sandbox parameters and persistent local storage.</li>
+        <li><strong>Third-Party Integrity:</strong> Any telemetry or programmatic integration utilized is restricted strictly to operational safety parameters (e.g., Google Firebase Crashlytics) or initiated via direct hardware invocation by you (e.g., standard cellular short messaging service).</li>
+    </ul>
+
+    <h2>2. Granular Permissions and Content Types Processed</h2>
+    <p>To support all advanced options and local operations, the Application requests specialized permissions via your device's security system. Below is a detailed breakdown of all device capabilities utilized, structural content types accessed, and operational reasons:</p>
+
+    <h3>A. Location Coordinates</h3>
+    <p><span class="permission-badge">android.permission.ACCESS_FINE_LOCATION</span>
+       <span class="permission-badge">android.permission.ACCESS_COARSE_LOCATION</span>
+       <span class="permission-badge">NSLocationWhenInUseUsageDescription</span></p>
+    <ul>
+        <li><strong>Content Type:</strong> High-precision global positioning system (GPS) coordinates, geographical latitude, and longitude.</li>
+        <li><strong>Collection Method:</strong> Programmatic requests via the hardware-level location service module (using the Geolocator library).</li>
+        <li><strong>Operational Purpose:</strong> When you activate a full emergency SOS trigger, the app fetches your current coordinates to generate an interactive hyperlink (e.g., Google Maps link). This link is immediately appended to your crisis message to aid emergency response. The app does not monitor your location in the background or store history trail records.</li>
+    </ul>
+
+    <h3>B. Device Contacts and Address Book</h3>
+    <p><span class="permission-badge">android.permission.READ_CONTACTS</span>
+       <span class="permission-badge">android.permission.WRITE_CONTACTS</span>
+       <span class="permission-badge">NSContactsUsageDescription</span></p>
+    <ul>
+        <li><strong>Content Type:</strong> Stored names, telephone phone numbers, unique contact IDs, telephone categorization tags, and optional contact thumbnail pictures.</li>
+        <li><strong>Collection Method:</strong> Interfacing with the operating system's native address book API using the Flutter Contacts interface.</li>
+        <li><strong>Operational Purpose:</strong> Enables selecting, importing, indexing, and organizing your contacts inside the Application. This lets you configure quick-dial boards and select emergency recipients without entering long phone digits manually. All interactions remain completely inside the device's local memory.</li>
+    </ul>
+
+    <h3>C. Short Message Service (SMS) Control</h3>
+    <p><span class="permission-badge">android.permission.SEND_SMS</span>
+       <span class="permission-badge">android.permission.RECEIVE_SMS</span></p>
+    <ul>
+        <li><strong>Content Type:</strong> Alpha-numeric textual payloads containing crisis status indicators, pre-set distress templates, and your precise location coordinates link.</li>
+        <li><strong>Collection Method:</strong> Dispatched programmatically via direct native Android SmsManager method channels, or via standard system intent redirection (e.g., url_launcher).</li>
+        <li><strong>Operational Purpose:</strong> This feature acts as your emergency dispatch line. When you tap the emergency trigger button, it instantly sends an urgent SMS notification to your pre-defined safety contacts. This ensures your safety network is alerted immediately if an incident occurs.</li>
+    </ul>
+
+    <h3>D. Phone Calling Infrastructure</h3>
+    <p><span class="permission-badge">android.permission.CALL_PHONE</span></p>
+    <ul>
+        <li><strong>Content Type:</strong> External telephone numbers and destination dial configurations.</li>
+        <li><strong>Collection Method:</strong> Invoked through direct method channels (`com.example.directcall/call`) to trigger immediate outbound calls.</li>
+        <li><strong>Operational Purpose:</strong> Allows the app to place hands-free direct phone calls to emergency numbers or selected quick-dial configurations instantly, bypassing the secondary dialer confirmation screen during crisis situations.</li>
+    </ul>
+
+    <h3>E. Camera Module Access</h3>
+    <p><span class="permission-badge">android.permission.CAMERA</span>
+       <span class="permission-badge">NSCameraUsageDescription</span></p>
+    <ul>
+        <li><strong>Content Type:</strong> Real-time video feeds, raw image captures, and custom raster image matrices.</li>
+        <li><strong>Collection Method:</strong> Operating system interface via the Image Picker module.</li>
+        <li><strong>Operational Purpose:</strong> Allows you to capture real-time profile pictures and customize quick-dial avatar panels. It also helps you link visual icons to specific phone numbers, making them easy to identify.</li>
+    </ul>
+
+    <h3>F. Storage, Documents, and Photo Gallery</h3>
+    <p><span class="permission-badge">android.permission.READ_MEDIA_IMAGES</span>
+       <span class="permission-badge">android.permission.READ_EXTERNAL_STORAGE</span>
+       <span class="permission-badge">android.permission.WRITE_EXTERNAL_STORAGE</span>
+       <span class="permission-badge">NSPhotoLibraryUsageDescription</span></p>
+    <ul>
+        <li><strong>Content Type:</strong> JPEG/PNG image assets, documents, database files, and local custom profile elements.</li>
+        <li><strong>Collection Method:</strong> Core file-system stream storage reads/writes handled via the Path Provider integration layer.</li>
+        <li><strong>Operational Purpose:</strong> Allows you to browse your phone's media gallery to select custom contact background photos. It also handles saving application configurations locally, so your settings persist between sessions.</li>
+    </ul>
+
+    <h3>G. Audio Input & Speech Interfaces</h3>
+    <p><span class="permission-badge">android.permission.RECORD_AUDIO</span>
+       <span class="permission-badge">NSMicrophoneUsageDescription</span>
+       <span class="permission-badge">NSSpeechRecognitionUsageDescription</span></p>
+    <ul>
+        <li><strong>Content Type:</strong> Real-time raw ambient sound waves, localized vocal utterances, and phonetic data strings.</li>
+        <li><strong>Collection Method:</strong> Accesses the microphone stream using the native hardware abstraction library.</li>
+        <li><strong>Operational Purpose:</strong> Supports speech-to-text features that allow hands-free navigation. This lets you issue verbal commands to look up configurations, speak dial coordinates, or search your list of contacts.</li>
+    </ul>
+
+    <div class="highlight-box">
+        <strong>Important Safety Note on Audio Processing:</strong> Vocal processing is converted to text locally or handled entirely via the device's native speech-to-text engine. Ambient conversations are never recorded, analyzed, or shared with external servers.
+    </div>
+
+    <h2>3. Embedded Third-Party Analytics and Telemetry</h2>
+    <p>To ensure application stability and keep the code clean, we include specialized analytics integrations provided by Google LLC:</p>
+
+    <h3>Firebase Crashlytics</h3>
+    <ul>
+        <li><strong>Data Categories:</strong> Low-level runtime crash logs, unhandled stack traces, device physical identifiers (e.g., exact model, processor structure), active system layout variations, and disk performance metrics.</li>
+        <li><strong>Method of Delivery:</strong> Automated background transmission over HTTPS when an unexpected exception occurs.</li>
+        <li><strong>Purpose:</strong> Helps detect bugs, performance bottlenecks, and system failures in real time. This ensures emergency features work reliably across thousands of distinct device variants. The collected data is non-identifiable and does not contain personal information.</li>
+    </ul>
+
+    <h2>4. Data Storage and Retention Architecture</h2>
+    <p>Data stored by the application relies entirely on two distinct local storage engines on your device:</p>
+    <ol>
+        <li><strong>SQLite Database Engine (via sqflite):</strong> A secure structured query language container managed within your application's isolated sandboxed storage space. This handles quick-dial records, emergency configurations, custom phone listings, and groups.</li>
+        <li><strong>Shared Preferences Framework:</strong> Handles micro-level variables, such as system theme preferences, localized language strings, onboarding state flags, and granted permissions records.</li>
+    </ol>
+    <p><strong>Retention Duration:</strong> Because this data is stored locally, it remains on your device indefinitely. You can clear it instantly by navigating to your system settings, selecting the application info screen, and choosing the "Clear Data" option, or by uninstalling the Application entirely.</p>
+
+    <h2>5. Legal Compliance Declarations</h2>
+
+    <h3>A. General Data Protection Regulation (GDPR) Compliance</h3>
+    <p>For individuals residing within the European Economic Area (EEA), we act as the <strong>Data Controller</strong> for local system operations. However, because we do not transmit personal information to external servers, your data rights are fully managed directly by you:</p>
+    <ul>
+        <li><strong>Right of Access & Portability:</strong> All structured data can be viewed directly within the Application UI or extracted using native device backup tools.</li>
+        <li><strong>Right to Erasure ("Right to be Forgotten"):</strong> Uninstalling the app permanently deletes all local database entries, profiles, and configuration files from the device.</li>
+        <li><strong>Right to Restrict Processing:</strong> You can block or revoke permissions (such as Location or Contacts access) at any time through your device's system settings.</li>
+    </ul>
+
+    <h3>B. California Consumer Privacy Act (CCPA) Compliance</h3>
+    <p>We do not collect personal consumer information for monetization, profiling, or direct financial gain. Furthermore:</p>
+    <ul>
+        <li>We do not sell your personal data to any broker, advertiser, or data harvester.</li>
+        <li>We do not share consumer identification statistics with corporate data networks.</li>
+        <li>Users can access all application features without fear of discrimination, even if they choose to deny high-level tracking permissions.</li>
+    </ul>
+
+    <h2>6. Children's Privacy Safeguards</h2>
+    <p>This Application does not intentionally collect, manage, or solicit information from anyone under the age of 13. If a parent or guardian discovers that a child has entered sensitive personal data (such as their precise location or contact details) into the local database, please clear the application data or uninstall the Application to remove the records.</p>
+
+    <h2>7. Ongoing Updates and Policy Revisions</h2>
+    <p>We reserve the right to update this policy document periodically to reflect updates to our codebase, new SDK additions, or changes to global privacy laws. We recommend checking this page regularly to stay informed about how we protect your information. Your continued use of the Application signifies your acceptance of any revisions.</p>
+
+    <h2>8. Corporate Contact Channels</h2>
+    <p>For questions regarding this privacy policy, local data processing routines, or technical implementation details, please contact us through our official support channels:</p>
+    <ul>
+        <li><strong>Support Email Address:</strong> <a href="mailto:contact.selvamapps@gmail.com">contact.selvamapps@gmail.com</a></li>
+<!--        <li><strong>Developer Web Portal:</strong> <a href="https://www.snapcall.example.com" target="_blank">https://www.snapcall.example.com</a></li>-->
+    </ul>
+
+    <div class="footer">
+        &copy; 2024 Snap Call Project. All rights reserved. Generated compliance documentation.<br>
+        All trademark materials belong to their respective corporate entities.
+    </div>
+</div>
+
+</body>
+</html>
